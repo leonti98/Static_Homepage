@@ -105,11 +105,19 @@ h3 {
     border: 4px #2f85ee solid;
     border-radius: 10%;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .posts img {
     max-width: 200px;
 }
+
+/* .posts p {
+    padding: 5px;
+} */
 
 
 .section-3 {
@@ -126,7 +134,7 @@ h3 {
     justify-content: space-around;
     gap: 30px;
     background-color: #2f85ee;
-    margin: 50px;
+    margin: 100px;
     color: aliceblue;
     flex-wrap: wrap;
     padding: 10px;
