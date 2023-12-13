@@ -9,6 +9,7 @@ body {
     flex-direction: column;
 }
 
+
 .header {
     display: flex;
     align-items: center;
@@ -20,6 +21,8 @@ body {
 .header a {
     padding: 0px 20px;
     margin-right: 20px;
+    color: aliceblue;
+    text-decoration: none;
 }
 
 h1 {
@@ -33,9 +36,49 @@ h1 {
     font-size: 18px;
     padding-left: 20px;
     padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+img {
+    max-width: 200px;
+    align-self: baseline;
+}
+
+.section-1 p {
+    color: #dcdee3;
+    font-size: 15px;
 }
 
 h2 {
     font-size: 48px;
 
+}
+
+button {
+    background-color: #2f85ee;
+    color: aliceblue;
+    border-radius: 10%;
+    width: 100px;
+    padding: 5px 10px;
+    border: #232e39;
+}
+
+.section-2 {
+    text-align: center;
+}
+
+.posts {
+    display: flex;
+    border: red;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.posts div {
+    flex-grow: 1;
+    border: 4px #2f85ee solid;
+    border-radius: 10%;
 }
